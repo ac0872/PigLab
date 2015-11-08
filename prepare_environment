@@ -1,0 +1,5 @@
+BASE_DIR=$(pwd)
+export PIG_HOME=$BASE_DIR/pig
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-amd64/
+export PATH=$PATH:$PIG_HOME/bin
+PS1='(piglab-env)${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
